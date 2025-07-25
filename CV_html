@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Set character encoding -->
+  <meta charset="UTF-8" />
+
+  <!-- Make the layout responsive on mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- Page title shown in browser tab -->
+  <title>Sinovuyo Sondara | Portfolio</title>
+
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="Virtual CV.css" />
+
+  <!-- Google Fonts used in page styling -->
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Rajdhani:wght@500&family=Orbitron:wght@500&display=swap" rel="stylesheet"/>
+
+  <!-- Internal CSS styles -->
+  <style>
+    /* Body background and base styles */
+    body {
+      background: url('code-background.gif') no-repeat center center fixed;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      color: #fff;
+      font-family: 'Rajdhani', sans-serif;
+    }
+
+    /* Header styling */
+    header {
+      text-align: center;
+      padding: 4rem 1rem 2rem;
+      background-color: rgba(0, 0, 50, 0.7); /* semi-transparent navy background */
+      animation: slideIn 1s ease-out; /* animation on page load */
+    }
+
+    /* Main name/title */
+    header h1 {
+      font-family: 'Rubik Glitch', cursive;
+      color: #ff66b2;
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    /* Subtitle or tagline */
+    header p {
+      font-size: 1.25rem;
+      color: #add8e6;
+      margin-bottom: 1.5rem;
+    }
+
+    /* Navigation bar links */
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    /* Hover effect for nav links */
+    nav a:hover {
+      color: #ff66b2;
+      text-shadow: 0 0 5px #ff66b2;
+    }
+
+    /* General section box styling */
+    section {
+      background-color: rgba(0, 0, 50, 0.8);
+      margin: 2rem auto;
+      padding: 2rem;
+      border-radius: 1rem;
+      width: 90%;
+      max-width: 900px;
+    }
+
+    /* Section headings (e.g. About, Projects) */
+    h2 {
+      font-family: 'Orbitron', sans-serif;
+      color: #ff66b2;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      animation: bounceIn 2s infinite alternate; /* vertical bounce animation */
+    }
+
+    /* List item spacing */
+    ul li {
+      margin-bottom: 1rem;
+    }
+
+    /* Footer area */
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: rgba(0, 0, 50, 0.7);
+      font-size: 0.9rem;
+    }
+
+    /* Slide-in animation for header */
+    @keyframes slideIn {
+      from { transform: translateY(-100px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    /* Bounce animation for headings */
+    @keyframes bounceIn {
+      from { transform: translateY(0); }
+      to { transform: translateY(-10px); }
+    }
+
+    /* Icon size and spacing */
+    .icon {
+      width: 20px;
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+
+    /* Contact section paragraph styling */
+    #contact p {
+      font-size: 1.1rem;
+      margin: 1rem 0;
+      display: flex;
+      align-items: center;
+      transition: color 0.3s;
+    }
+
+    /* Hover effect for contact items */
+    #contact p:hover {
+      color: #ff66b2;
+      text-shadow: 0 0 6px #ff66b2;
+    }
+
+    /* Contact link styling */
+    #contact a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    /* Hover effect for contact links */
+    #contact a:hover {
+      color: #ff66b2;
+      text-shadow: 0 0 5px #ff66b2;
+    }
+
+    /* Download CV container */
+    .download-cv {
+      text-align: center;
+      margin: 2rem auto;
+    }
+
+    /* Button styling for CV download */
+    .download-cv button {
+      background-color: #ff66b2;
+      color: #fff;
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1.1rem;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    /* Hover effect for download button */
+    .download-cv button:hover {
+      background-color: #e0559a;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header section with name, title and navigation -->
+  <header>
+    <h1>Sinovuyo Sondara</h1>
+    <p>Final-Year BSc IT Student | Aspiring Tech Innovator | Student Leader</p>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#resume">Resume</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#hobbies">Hobbies</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- About section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+     I’m a final-year BSc Information Technology student at North-West University (NWU), with a deep passion for coding, solving real-world problems, and using technology to make a meaningful impact. My academic journey has not only sharpened my technical abilities but also taught me the value of collaboration, perseverance, and continuous learning.
+
+I’ve taken part in various hackathons, where I’ve had the opportunity to tackle challenges, work under pressure, and deliver innovative solutions as part of a team. These experiences have helped me grow both as a developer and a critical thinker.
+
+Beyond academics, I actively serve as a student leader, championing student inclusion and mental wellness on campus. I’m especially passionate about creating spaces where all voices are heard and where students from diverse backgrounds feel represented, supported, and empowered.
+
+I’m also a dedicated sports person, currently representing NWU as part of the university basketball team. Being part of the team has strengthened my discipline, teamwork, and time management skills—qualities I bring into every aspect of my academic and professional life.
+    </p>
+  </section>
+
+  <!-- Resume section with educational and job experience -->
+  <section id="resume">
+    <h2>Resume</h2>
+    <ul>
+      <li>📍 North-West University – BSc Information Technology (2023–2025)</li>
+      <li>🏫 John Orr Technical High School – Matric 2021</li>
+      <li>🔩 Teaching Assistant at Black Tutorial Services</li>
+      <li>🛍 Retail Assistant at PQ, Dawn Park</li>
+    </ul>
+  </section>
+
+  <!-- Projects section with GitHub links -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <strong>Virtual CV Website</strong><br>
+        Personal portfolio built with HTML and CSS only.<br>
+        <a href="https://github.com/SinovuyoSondara/Virtual-CV-website" target="_blank">🔗 GitHub Repo</a>
+      </li>
+
+      <li>
+        <strong>Full-Stack Group Web App</strong><br>
+        Collaborative CRUD project with database integration.<br>
+        <a href="https://github.com/41434366sino/fullstack-app" target="_blank">🔗 GitHub Repo</a>
+      </li>
+
+      <li>
+        <strong>Digital Entity</strong><br>
+        A repository focused on building a digital presence.<br>
+        <a href="https://github.com/41434366sino/digital-entity" target="_blank">🔗 View on GitHub</a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Hobbies section with icons -->
+  <section id="hobbies" class="hobbies-section">
+    <h2>Hobbies</h2>
+    <ul>
+      <li>📚 Reading</li>
+      <li>🏀 Basketball</li>
+      <li>🏐 Netball</li>
+    </ul>
+  </section>
+
+  <!-- Contact information with icons and links -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>
+      <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email Icon" class="icon">
+      <a href="mailto:sondarasinovuyo@gmail.com">sondarasinovuyo@gmail.com</a>
+    </p>
+    <p>
+      <img src="https://cdn-icons-png.flaticon.com/512/597/597177.png" alt="Phone Icon" class="icon">
+      067 637 8317
+    </p>
+    <p>
+      <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn Icon" class="icon">
+      <a href="https://www.linkedin.com/in/sinovuyo-sondara-261a95234/" target="_blank">Sinovuyo Sondara</a>
+    </p>
+    <p>
+      <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Icon" class="icon">
+      <a href="https://github.com/SinovuyoSondara" target="_blank">github.com/SinovuyoSondara</a>
+    </p>
+  </section>
+
+  <!-- CV download button -->
+  <div class="download-cv">
+    <a href="Sinovuyos_CV.pdf" download>
+      <button>📄 Download My CV</button>
+    </a>
+  </div>
+
+  <!-- Page footer -->
+  <footer>
+    <p>&copy; 2025 Sinovuyo Sondara</p>
+  </footer>
+</body>
+</html>
